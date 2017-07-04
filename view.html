@@ -12,13 +12,20 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<!--
+  <!--
   <script
   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
   crossorigin="anonymous"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="parallax.min.js"></script>
+  <script src="bower_components/jquery.stellar/jquery.stellar.min.js"></script>
+
+  <script>
+  $.stellar({
+    horizontalScrolling: false,
+    responsive: true
+  });
+  </script>
 
   <div class="container example2 example3">
     <nav class="navbar navbar-default navbar-fixed-top" id = "navbar-white">
@@ -38,10 +45,10 @@
 </div>
 
 
-<div id = "about" data-parallax="scroll" data-image-src="images/mall-angle.jpg" data-natural-width = 4992 data-natural-height = 3328 data-over-scroll-fix = true>
+<div id = "about"  data-stellar-background-ratio="0.5">
 
   <!-- Campus background image with header and application button -->
-  <div class="row">
+  <div class="row" style = "position: relative;">
     <div class="headers">
       <h1 id = "header-primary">TAMID Group at Maryland</h1>
       <h3 id = "header-secondary">Education. Investing. Consulting</h3>
@@ -84,7 +91,7 @@
 
 
 
-<div id = "team"  data-parallax="scroll" data-image-src="images/admin.jpg" data-natural-width = 4330 data-natural-height = 2286 data-over-scroll-fix = true>
+<div id = "team" data-stellar-background-ratio="0.5">
 
   <!-- Crop all images to 7.5in x 7.5in -->
 
@@ -195,7 +202,7 @@
                   </div>
 
 
-                  <div id = "portfolio"  data-parallax="scroll" data-image-src="images/washington.jpg" data-natural-width = 4240 data-natural-height = 2832 data-over-scroll-fix = true>
+                  <div id = "portfolio" data-stellar-background-ratio="0.5">
 
                     <div class="row">
                       <h1 style = "text-align: center;">Portfolio</h1>
