@@ -1,0 +1,244 @@
+/*Prevents horizontal scrolling*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.example2 .navbar-brand>img {
+  padding: 7px 15px;
+}
+
+.example3 .navbar-brand {
+  height: 75px;
+}
+
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.example3 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+#navbar-white{
+  background-color: white;
+}
+
+body {
+  padding-top: 70px;
+}
+
+.navbar .navbar-brand {
+  padding-top: 0px;
+}
+
+.navbar .navbar-brand img {
+  background-size: 500px auto;
+  height: 75px;
+}
+
+hr{
+  width: 600px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.navbar-nav li a {
+  line-height: 75px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 100px;
+}
+.firstSection{
+  height: 2000px;
+}
+#about{
+  text-align: left;
+  min-height: 700px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
+  color: white;
+  /*width: 100%;*/
+
+  /*For Parallax scrolling effect*/
+  /*background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+#about2{
+  text-align: left;
+  min-height: 700px;
+  background-image: url("../images/blossoms.jpg");
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
+  color: white;
+  /*width: 100%;*/
+}
+
+#team{
+  text-align: left;
+  min-height: 1150;
+  color: white;
+  width: 100%;
+}
+
+#portfolio{
+  text-align: left;
+  min-height: 700px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
+  /*background-image: url("../images/washington.jpg");*/
+  color: white;
+  width: 100%;
+}
+
+#today{
+  /*padding-top: 25%;*/
+  /*padding-left: 10%;*/
+  min-height: 700px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
+  background-size: cover;
+  background-position: center;
+
+  background-image: url("../images/testudo.jpg");
+  color: white;
+  width: 100%;
+}
+
+#contact{
+  /*padding-top: 25%;*/
+  /*padding-left: 10%;*/
+  min-height: 700px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
+
+  background-image: url("../images/telaviv.jpg");
+  color: white;
+  width: 100%;
+  /*For Parallax scrolling effect*/
+  /*background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.headshot {
+  filter: grayscale(100%);
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 25%;
+  margin-top: -10px;
+  border: 1px solid blue;
+}
+
+
+.caption{
+  margin-top: -45px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+#header-primary{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin-top: 60px;
+}
+
+#header-secondary{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.section-header{
+  color: white;
+  /*margin: auto auto;*/
+  text-align: center;
+  padding-bottom: 4%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.headers{
+  padding-left: 10%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.fa{
+  color: white;
+}
+div ul li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.about-text{
+  /*padding-left: 10px;*/
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  float: right;
+  text-align: center;
+  background-color: rgba(33, 158, 216, 0.6);
+  line-height: 150%;
+}
+
+.about-header{
+  text-align: center;
+  font-weight: 600;
+}
+
+#contact-header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.icon-div{
+  /*padding: 0 10% 0 10%;*/
+  /*width: 100%;*/
+  font-size: 12em;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+  text-transform: uppercase;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-size: 50%;
+}
+
+.portfolio-logo{
+  width: 100%;
+  height: auto;
+
+  background-color: rgba(210, 215, 242, 0.8);
+  margin: auto;
+  display: block;
+}
+.image-caption{
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}

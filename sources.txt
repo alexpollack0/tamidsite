@@ -1,0 +1,4 @@
+Sources:
+1) https://codepen.io/bootstrapped/pen/KwYGwq
+2) https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp
+3) https://www.w3schools.com/howto/howto_css_parallax.asp
