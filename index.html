@@ -22,8 +22,11 @@
 
   <script>
   $.stellar({
+    parallaxBackgrounds: true,
     horizontalScrolling: false,
-    responsive: true
+    responsive: false,
+    horizontalOffset: 40,
+ verticalOffset: 150
   });
   </script>
 
@@ -45,7 +48,7 @@
 </div>
 
 
-<div id = "about"  data-stellar-background-ratio="0.5">
+<div id = "about"  data-stellar-background-ratio="0.8">
 
   <!-- Campus background image with header and application button -->
   <div class="row" style = "position: relative;">
@@ -57,7 +60,7 @@
   </div>
 </div>
 <!--  -->
-<div id = "about2">
+<div id = "about2"  data-stellar-background-ratio="0.8">
   <div class = "row">
     <h1 class = "section-header">What We Do</h1>
   </div>
@@ -91,11 +94,11 @@
 
 
 
-<div id = "team" data-stellar-background-ratio="0.5">
+<div id = "team" data-stellar-background-ratio="0.8">
 
   <!-- Crop all images to 7.5in x 7.5in -->
 
-  <div class="row">
+  <div class="row" style = "position: relative;">
     <h1 class = "section-header">Meet the team</h1>
   </div>
 
@@ -193,7 +196,7 @@
                     </div>
                   </div>
 
-                  <div id="today">
+                  <div id="today" data-stellar-background-ratio="0.8">
 
                     <div class="row">
                       <h1 style = "text-align: center;">Today</h1>
@@ -202,7 +205,7 @@
                   </div>
 
 
-                  <div id = "portfolio" data-stellar-background-ratio="0.5">
+                  <div id = "portfolio" data-stellar-background-ratio="0.8">
 
                     <div class="row">
                       <h1 style = "text-align: center;">Portfolio</h1>
