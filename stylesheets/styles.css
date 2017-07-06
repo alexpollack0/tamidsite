@@ -72,15 +72,11 @@ hr{
   color: white;
   /*width: 100%;*/
 
-  /*For Parallax scrolling effect*/
-  /*background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 #about2{
   text-align: left;
-  min-height: 700px;
+  height: 100%;
+  /*min-height: 700px;*/
   background-image: url("../images/blossoms.jpg");
   background-size: cover;
   background-position: center;
