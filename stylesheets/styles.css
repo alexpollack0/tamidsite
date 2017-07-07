@@ -115,7 +115,7 @@ hr{
 #today{
   /*padding-top: 25%;*/
   /*padding-left: 10%;*/
-  min-height: 700px;
+  min-height: 800px;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
@@ -249,7 +249,7 @@ footer{
   color: black;
   font-family: 'Montserrat', sans-serif;
 }
-iframe{
+.facebook{
   /*margin: auto auto;*/
   display: block;
   margin: 0 auto;
@@ -260,6 +260,14 @@ iframe{
   border-right: black 1px solid;
   border-left: black 1px solid;
   border-bottom: black 1px solid;
-  opacity: 0.9;
+  opacity: 0.85;
 
+}
+.calendar{
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  height: 600px;
+  opacity: 0.85;
 }
