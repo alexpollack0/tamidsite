@@ -249,3 +249,16 @@ footer{
   color: black;
   font-family: 'Montserrat', sans-serif;
 }
+iframe{
+  /*margin: auto auto;*/
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 500px;
+  height: 600px;
+  border-top: black 1px solid;
+  border-right: black 1px solid;
+  border-left: black 1px solid;
+  border-bottom: black 1px solid;
+
+}
