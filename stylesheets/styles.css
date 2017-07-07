@@ -260,5 +260,6 @@ iframe{
   border-right: black 1px solid;
   border-left: black 1px solid;
   border-bottom: black 1px solid;
+  opacity: 0.9;
 
 }
