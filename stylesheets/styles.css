@@ -86,6 +86,19 @@ hr{
   color: white;
   /*width: 100%;*/
 }
+#about3{
+  text-align: left;
+  height: 100%;
+  /*min-height: 700px;*/
+  background-image: url("../images/aerial.jpg");
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
+  color: white;
+  /*width: 100%;*/
+}
 
 #team{
   text-align: left;
@@ -244,6 +257,7 @@ footer{
   background-color: rgba(210, 215, 242, 0.8);
   margin: auto;
   display: block;
+  margin-bottom: 10px;
 }
 .image-caption{
   text-align: center;
