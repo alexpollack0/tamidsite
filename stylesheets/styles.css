@@ -93,7 +93,7 @@ hr{
   color: white;
   width: 100%;
   background-image: url("../images/admin.jpg");
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
   background-position: center;
 }
