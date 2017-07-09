@@ -90,9 +90,9 @@ hr{
 #team{
   text-align: left;
   min-height: 1150;
-  color: white;
+  color: black;
   width: 100%;
-  background-image: url("../images/admin.jpg");
+  background-image: url("../images/mall-3.jpg");
   /*background-attachment: fixed;*/
   background-size: cover;
   background-position: center;
@@ -159,6 +159,7 @@ hr{
   margin-top: -45px;
   margin-bottom: 20px;
   color: white;
+  font-weight: 700;
   text-align: center;
   font-weight: 500;
 }
