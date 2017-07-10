@@ -118,7 +118,7 @@ hr{
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
   background-image: url("../images/washington.jpg");
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
   background-position: center;
   color: white;
@@ -216,7 +216,9 @@ div ul li{
   width: 100%;
   float: right;
   text-align: center;
-  background-color: rgba(33, 158, 216, 0.6);
+  /*background-color: rgba(33, 158, 216, 0.6);*/
+  /*background-color: rgba(210, 215, 242, 0.8);*/
+  background-color: rgba(63, 89, 191, 0.44);
   line-height: 150%;
 }
 
