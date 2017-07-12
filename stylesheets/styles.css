@@ -77,7 +77,8 @@ hr{
   text-align: left;
   height: 100%;
   /*min-height: 700px;*/
-  background-image: url("../images/blossoms.jpg");
+  /*background-color: rgba(127, 237, 249,0.7);*/
+  background: url("../images/mall-snow.jpg");
   background-size: cover;
   background-position: center;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -117,7 +118,8 @@ hr{
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
-  background-image: url("../images/washington.jpg");
+  background-image: url("../images/hornbake.jpg");
+  /*background-image: url("../images/washington.jpg");*/
   /*background-attachment: fixed;*/
   background-size: cover;
   background-position: center;
@@ -147,8 +149,10 @@ hr{
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
-
-  background-image: url("../images/telaviv.jpg");
+  background: url("../images/telaviv.jpg");
+  background-size: cover;
+  background-position: center;
+  /*background-image: url("../images/telaviv.jpg");*/
   color: white;
   width: 100%;
   /*For Parallax scrolling effect*/
