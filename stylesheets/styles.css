@@ -79,7 +79,7 @@ hr{
   height: 100%;
   /*min-height: 700px;*/
   /*background-color: rgba(127, 237, 249,0.7);*/
-  background: url("../images/mall-snow.jpg");
+  background: url("../images/mall-snow-o.jpg");
   background-size: cover;
   background-position: center;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -119,7 +119,7 @@ hr{
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
-  background-image: url("../images/snow-mall.jpg");
+  background-image: url("../images/m-circle-o.jpg");
   /*background-image: url("../images/washington.jpg");*/
   /*background-attachment: fixed;*/
   background-size: cover;
@@ -216,15 +216,14 @@ div ul li{
   text-transform: uppercase;
 }
 .about-text{
-  /*padding-left: 10px;*/
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   float: right;
   text-align: center;
-  /*background-color: rgba(33, 158, 216, 0.6);*/
-  /*background-color: rgba(210, 215, 242, 0.8);*/
+  height: 110px;
   background-color: rgba(63, 89, 191, 0.44);
   line-height: 150%;
+  padding: 1% 1%;
 }
 
 .about-header{
@@ -256,15 +255,21 @@ footer{
   color: white;
   font-size: 50%;
 }
-
+.company-logo-background{
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 150px;
+  /*display: table;*/
+}
+.portfolio-logo-background{
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 200px;
+  /*display: table;*/
+}
 .portfolio-logo{
-  width: 100%;
-  height: auto;
-
-  background-color: rgba(161, 215, 251, 0.35);
-  margin: auto;
-  display: block;
-  margin-bottom: 10px;
+  width: 90%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .image-caption{
   text-align: center;
