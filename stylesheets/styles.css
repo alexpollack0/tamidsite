@@ -293,3 +293,9 @@ footer{
   height: 600px;
   opacity: 0.85;
 }
+.aboutIcon{
+  width: 20%;
+  margin: auto;
+  display: block;
+  padding-bottom: 5%;
+}
