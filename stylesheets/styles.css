@@ -72,8 +72,8 @@ hr{
 
 }
 #about2{
-  text-align: left;
-  height: 100%;
+  /*text-align: left;*/
+  /*height: 100%;*/
   background: url("../images/mall-snow-o.jpg");
   background-size: cover;
   background-position: center;
@@ -81,12 +81,21 @@ hr{
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
   color: white;
+  height: auto;
+}
+.about2-header{
+  color: black;
+  /*margin: auto auto;*/
+  text-align: center;
+  /*padding-bottom: 4%;*/
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
 }
 #about3{
   text-align: left;
   height: 100%;
   /*min-height: 700px;*/
-  background-image: url("../images/aerial.jpg");
+  /*background-image: url("../images/aerial-o.jpg");*/
   background-size: cover;
   background-position: center;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -101,7 +110,7 @@ hr{
   min-height: 1150;
   color: black;
   width: 100%;
-  background-image: url("../images/aerial.jpg");
+  background-image: url("../images/aerial-o.jpg");
   /*background-attachment: fixed;*/
   background-size: cover;
   background-position: center;
@@ -131,7 +140,7 @@ hr{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("../images/testudo.jpg");
+  background-image: url("../images/testudo-o.jpg");
   color: white;
   width: 100%;
 }
@@ -162,9 +171,8 @@ hr{
   margin-top: -45px;
   margin-bottom: 20px;
   color: white;
-  font-weight: 700;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 #header-primary{
@@ -207,8 +215,12 @@ div ul li{
   text-align: center;
   height: 110px;
   background-color: rgba(63, 89, 191, 0.44);
-  line-height: 150%;
+  /*line-height: 150%;*/
   padding: 1% 1%;
+
+  /*position: relative;
+  top: 50%;
+  transform: translateY(-50%); */
 }
 
 .about-header{
@@ -238,9 +250,14 @@ footer{
   color: white;
   font-size: 50%;
 }
-.company-logo-background{
+.company-logo-background1{
   background-color: rgba(255, 255, 255, 0.5);
-  height: 150px;
+  height: 120px;
+  /*display: table;*/
+}
+.company-logo-background2{
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 180px;
   /*display: table;*/
 }
 .portfolio-logo-background{
@@ -253,6 +270,11 @@ footer{
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+.portfolio-header{
+  color: white;
+  text-align: center;
+  font-weight: 600;
 }
 .image-caption{
   text-align: center;
