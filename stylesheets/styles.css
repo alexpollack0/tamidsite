@@ -198,6 +198,10 @@ footer{
   border: 1px solid blue;
 }
 
+.headshot-div{
+  padding: 0px 40px 10px 40px;
+}
+
 .caption{
   margin-top: -45px;
   margin-bottom: 20px;
