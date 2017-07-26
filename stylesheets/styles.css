@@ -178,6 +178,12 @@ footer{
   height: 180px;
   /*display: table;*/
 }
+.internship-logo{
+  width: 90%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 /*============== TEAM CLASSES ==============*/
 #team{
@@ -223,39 +229,30 @@ footer{
 /*============== PORTFOLIO CLASSES ==============*/
 #portfolio{
   text-align: left;
-  min-height: 700px;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
-  background-image: url("../images/m-circle-o.jpg");
-  background-size: cover;
-  background-position: center;
-  /*background: url("../images/blu_stripes.png");
-  background-repeat: repeat;*/
+  background: url("../images/organic-tiles.png");
+  height: auto;
+  background-repeat: repeat;
   color: white;
   width: 100%;
 }
-
-.portfolio-logo-background1{
-  background-color: rgba(255, 255, 255, 0.4);
-  height: 120px;
-  /*display: table;*/
+.row1{
+  height: 100px;
+}
+.row2{
+  height: 80px;
+}
+.row3{
+  height: 205px;
 }
 .portfolio-logo-background2{
-  background-color: rgba(255, 255, 255, 0.4);
-  height: 190px;
-  /*display: table;*/
-}
-
-.portfolio-logo{
-  width: 90%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  display: table;
 }
 
 .portfolio-header{
-  color: white;
+  color: black;
   text-align: center;
   font-weight: 600;
 }
