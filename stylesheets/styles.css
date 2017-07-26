@@ -239,7 +239,9 @@ footer{
 .portfolio-logo-background2{
   display: table;
 }
-
+.portfolio-logo{
+  width: 75%;
+}
 .portfolio-header{
   color: black;
   text-align: center;
