@@ -71,7 +71,6 @@ footer{
   padding-bottom: 10px;
   line-height: 100px;
 }
-
 /*============== ABOUT CLASSES ==============*/
 #about{
   text-align: left;
@@ -79,10 +78,12 @@ footer{
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
+  /*1. To change the background image of the section that says "TAMID Group at ...", change the url of the background-image to the path of your image*/
   background-image: url("../images/mall-angle-o.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  /*2. Change the color of the headers in this section by altering the color property.  The current color is set to white*/
   color: white;
 }
 
@@ -108,7 +109,8 @@ footer{
 
 /*============== ABOUT2 CLASSES ==============*/
 #about2{
-  background: url("../images/organic-tiles.png");
+  /*1. To change the background image of the section title "What We Do", edit the url of the background-image to the file path of your image*/
+  background-image: url("../images/organic-tiles.png");
   background-repeat: repeat;
   color: white;
   height: auto;
@@ -164,11 +166,9 @@ footer{
 }
 .company-logo-background1{
   height: 120px;
-  /*display: table;*/
 }
 .company-logo-background2{
   height: 180px;
-  /*display: table;*/
 }
 .internship-logo{
   width: 90%;
@@ -181,8 +181,8 @@ footer{
 #team{
   text-align: left;
   min-height: 1150;
-  color: black;
   width: 100%;
+  /*1. To change the background image of the section titled "Meet The Team", edit the url of the background-image to the file path of your image*/
   background-image: url("../images/aerial-o.jpg");
   background-size: cover;
   background-position: center;
@@ -190,6 +190,7 @@ footer{
 }
 
 .team-header{
+  /*2. Change the color of the header to whatever color you would like.  The current color is set to white*/
   color: white;
   text-align: center;
   padding-bottom: 4%;
@@ -197,6 +198,7 @@ footer{
 }
 
 .headshot {
+  /*3. If you don't want the headshots to be black and white, remove the filter property below*/
   filter: grayscale(100%);
   width: 100%;
   border-radius: 50%;
@@ -211,6 +213,7 @@ footer{
 .caption{
   margin-top: -45px;
   margin-bottom: 20px;
+  /*4. Change the color of the caption below each headshot to whatever color you would like.  The current color is set to white*/
   color: white;
   text-align: center;
   font-weight: 700;
@@ -220,6 +223,7 @@ footer{
 /*============== PORTFOLIO CLASSES ==============*/
 #portfolio{
   text-align: left;
+  /*1. To change the background image of the section titled "Portfolio", edit the url of the background-image to the file path of your image*/
   background: url("../images/organic-tiles.png");
   height: 100%;
   background-repeat: repeat;
@@ -253,6 +257,7 @@ footer{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  /*1. To change the background image of the section title "Calendar", edit the url of the background-image to the file path of your image */
   background-image: url("../images/testudo-o.jpg");
   color: white;
   width: 100%;
@@ -274,6 +279,7 @@ footer{
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
+  /*1. To change the background image of the "Contact" section, edit the url of the background-image to the file path of your image */
   background: url("../images/telaviv.jpg");
   background-size: cover;
   background-position: center;

@@ -13,7 +13,7 @@ I've added commented numbers to the code (full.html) so please follow the number
 **The repo only contains 2 html files: full.html and index.html.**  index.html is simply a minified version of full.html.  I'll explain more about what this means later on but for now, don't worry about index.html.
 
 This readme is split up into 3 sections: HTML (content), CSS (style), and hosting
-### Section 1: HTML
+### Section 1: HTML (full.html)
 #### Section 1.1: Navigation Bar
 1. 'src' on the image tag should have the path to the logo you want to appear in the top left
 2. Change the text in between the a tags to alter the words appearing at the right of the navigation bar
@@ -51,5 +51,32 @@ This readme is split up into 3 sections: HTML (content), CSS (style), and hostin
 2. Add whatever text you would like to be shown between the h1 tags
 3. Change the links for the Facebook, LinkedIn, and Instagram icons by altering the text in the 'href' attributes for each of the 3 a tags
 
-### Section 2: CSS (Styling)
-#### Section 2.1:
+### Section 2: CSS (Styling, stylesheets/styles.css)
+This section mainly goes over how to change the background images for each section.  If you have any more specific questions, feel free to contact me.
+#### GENERAL TAGS STYLES / CLASSES
+1. I wouldn't recommend changing anything here
+#### NAVBAR CLASSES
+1. I wouldn't recommend changing anything here
+#### ABOUT CLASSES
+1. To change the background image of the section that says "TAMID Group at ...", change the url of the background-image to the path of your image
+2. Change the color of the headers in this section by altering the color property.  The current color is set to white
+#### ABOUT2 CLASSES
+1. To change the background image of the section titled "What We Do", edit the url of the background-image to the file path of your image
+#### ABOUT3 CLASSES
+1. I wouldn't recommend changing anything here
+#### TEAM CLASSES
+* All headshots on this page need to be in a square if you want them to look proper.
+1. To change the background image of the section titled "Meet The Team", edit the url of the background-image to the file path of your image
+2. Change the color of the header to whatever color you would like.  The current color is set to white
+3. If you don't want the headshots to be black and white, remove the filter property below
+4. Change the color of the caption below each headshot to whatever color you would like.  The current color is set to white
+#### PORTFOLIO CLASSES
+1. To change the background image of the section titled "Portfolio", edit the url of the background-image to the file path of your image
+#### CALENDAR CLASSES
+1. To change the background image of the section title "Calendar", edit the url of the background-image to the file path of your image
+#### CONTACT CLASSES
+1. To change the background image of the "Contact" section, edit the url of the background-image to the file path of your image
+
+### Section 3: Miscellaneous
+#### Section 3.1: Speeding up load time
+- If you're using high-quality images, they'll likely significantly slow down the loading speed of your site.  To alleviate this issue, compress your image file size to under ~1.5 mb.  You can do this through any number of sources online.  I did it through adobe photoshop.  Here's a tutorial link of how to do it through photoshop: http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html.  Check out the "Optimize an image for the web" section.
